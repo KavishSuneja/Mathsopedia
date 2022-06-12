@@ -1,0 +1,2104 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid red;*/
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.heading{
+    border: px solid blue;
+    height: 300px;
+    background-image: url(images/mensuration.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.chname{
+
+    border: px solid red;
+    position: relative;
+    top: 80px;
+    
+    /*FONT*/
+
+    text-align: center;
+    color: red;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+}
+
+.menu{
+    height: 100px;
+    border: px solid green;
+    margin-top: 30px;
+}
+
+#support{
+
+    border: px solid yellow;
+    width: 90%;
+
+    margin: 0px auto;
+    text-align: center;
+    height: 100%;
+}
+
+.sections{
+    border: px solid red;
+    float:left;
+    width: 20%;
+    height:100px;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+
+    /*fonts*/
+
+    font-family: 'Roboto', sans-serif;;
+    font-weight:bolder ;
+    font-size: 25px;
+    color: #FEFEFE;
+  
+}
+
+.menua{
+    /*fonts*/
+
+    font-family: 'Roboto', sans-serif;;
+    font-weight:bolder ;
+    font-size: 25px;
+    color: #FEFEFE;
+    text-decoration: none;
+}
+
+.menuspan{
+    position: relative;
+    top: 30px;
+    border: px solid green;
+}
+
+.sections:hover{
+
+    transform: scale(1.1,1.1);
+    transition: 1s;
+    text-decoration: underline;
+}
+
+#first{
+    background-color:#FFFF33;
+    margin-left: 70px;
+}
+
+#second{
+    background-color: #FF9933;
+}
+
+#third{
+    background-color: #FFCCCC;
+}
+
+#fourth{
+    background-color: #99FF99;
+}
+
+#fifth{
+    background-color: #33FF00;
+}
+
+#sixth{
+    background-color: #FF9933;
+}
+
+#seventh{
+    background-color: #66FF33;
+}
+
+#eight{
+    background-color: #66CC99;
+}
+
+.aandp{
+
+    border: px solid green;
+    margin-top:30px ;
+    height: 700px;
+}
+
+.aandpH{
+    border: px solid red;
+    height: 70px;
+
+    /*FONT*/
+    
+    font-family: 'Neucha', cursive;
+    font-weight:bolder ;
+    font-size: 50px;
+    color: #FFFF33;
+}
+
+.contentAP{
+
+    border: px solid blue;
+    text-align: center;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.headingofAP{
+
+    color: red;
+    font-size: 22px;
+}
+
+.square{
+    border:px solid brown;
+    float: left;
+    width: 49%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.aofsq{
+    border: px solid red;
+    width: 40%;
+    position:relative ;
+    left: 350px;
+    bottom: 190px;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.rectangle{
+
+    border:px solid brown;
+    float: right;
+    width: 49%;
+    height: 300px;
+    margin-top: 20px;
+
+}
+
+.aofrec{
+
+    border: px solid red;
+    width: 50%;
+    position:relative ;
+    left: 350px;
+    bottom: 150px;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 20px;
+    font-weight: bolder;
+
+
+}
+
+.triangle{
+
+    border:px solid brown;
+    float: left;
+    width: 49%;
+    height: 300px;
+    margin-top: 20px;
+
+}
+
+.aoftr{
+
+    border:px solid red;
+    width: 50%;
+    position:relative ;
+    left: 350px;
+    bottom: 150px;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 20px;
+    font-weight: bolder;
+
+
+}
+
+.circle{
+
+    border:px solid brown;
+    float: right;
+    width: 49%;
+    height: 300px;
+    margin-top: 20px;
+
+}
+
+.aofcr{
+
+    border:px solid red;
+    width: 50%;
+    position:relative ;
+    left: 350px;
+    bottom: 150px;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 20px;
+    font-weight: bolder;
+
+
+}  
+
+.area{
+
+    border: px solid red;
+    height: 500px;
+    width: 100%;
+}
+
+.areaheading{
+
+    border: px solid brown;
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    width: 50%;
+    height: 80px;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 8px 12px 5px rgba(0,0,0,.2);
+
+}
+
+.A1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #FEFEFE;
+    position: relative;
+    top: -60px;
+    letter-spacing: 4px;
+}
+
+.parellelogramheading{
+    border: px solid yellow;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.P1{
+    margin-left:30px;
+
+    /*FONT*/
+    
+    font-family: 'Neucha', cursive;
+    font-weight:bolder ;
+    font-size: 50px;
+    color: #33FF00;
+    
+    
+}
+
+.contentp{
+
+    border: px solid  brown;
+    margin-top: 20px;
+    height: 300px;
+}
+
+.imageforp{
+    border: px solid green;
+    width: 50%;
+}
+
+.imageofp{
+
+    width: 50%;
+}
+
+.formulap{
+    border: px solid green;
+    width: 30%;
+    height: 40px;
+    position: relative;
+    left: 40%;
+    top:-60%;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.trapeziumheading{
+    border: px solid #FF9933;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.T1{
+    margin-left:30px;
+
+    /*FONT*/
+    
+    font-family: 'Neucha', cursive;
+    font-weight:bolder ;
+    font-size: 50px;
+    color: #66CC99;
+    
+    
+}
+
+.contentt{
+
+    border: px solid  red;
+    margin-top: 20px;
+    height: 200px;
+}
+
+.imagefort{
+    border: px solid green;
+    width: 50%;
+}
+
+.imageoft{
+
+    width: 60%;
+}
+
+.formulat{
+    border: px solid green;
+    width: 50%;
+    height: 40px;
+    position: relative;
+    left: 40%;
+    top:-60%;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.rhombusheading{
+    border: px solid #FFCCCC;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.R1{
+    margin-left:30px;
+
+    /*FONT*/
+    
+    font-family: 'Neucha', cursive;
+    font-weight:bolder ;
+    font-size: 50px;
+    color: #fbb034;
+    
+    
+}
+
+.contentr{
+
+    border: px solid  red;
+    margin-top: 20px;
+    height: 250px;
+}
+
+.imageforr{
+    border: px solid green;
+    width: 50%;
+}
+
+.imageofr{
+
+    width: 40%;
+}
+
+.formular{
+    border: px solid green;
+    width: 30%;
+    height: 80px;
+    position: relative;
+    left: 40%;
+    top:-60%;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.generalquadheading{
+    border: px solid yellow;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.GQ1{
+    margin-left:30px;
+
+    /*FONT*/
+    
+    font-family: 'Neucha', cursive;
+    font-weight:bolder ;
+    font-size: 50px;
+    color: #FFCCCC;
+    
+    
+}
+
+.contentgq{
+
+    border: px solid  red;
+    margin-top: 20px;
+    height: 300px;
+}
+
+.imageforgq{
+    border: px solid green;
+    width: 50%;
+}
+
+.imageofgq{
+
+    width: 50%;
+}
+
+.formulagq{
+    border: px solid green;
+    width: 30%;
+    height: 100px;
+    position: relative;
+    left: 40%;
+    top:-60%;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.polygonalheading{
+    border: px solid yellow;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.P2{
+    margin-left:30px;
+
+    /*FONT*/
+    
+    font-family: 'Neucha', cursive;
+    font-weight:bolder ;
+    font-size: 50px;
+    color: red;
+    
+    
+}
+
+.contentp2{
+
+    border: px solid  red;
+    margin-top: 20px;
+    height: 300px;
+}
+
+.imageforp2{
+    border: px solid green;
+    width: 50%;
+}
+
+.imageofp2{
+
+    width: 40%;
+}
+
+.formulap2{
+    border: px solid green;
+    width: 40%;
+    height: 50px;
+    position: relative;
+    left: 40%;
+    top:-60%;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.SA1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #FEFEFE;
+    position: relative;
+    top: 0px;
+    letter-spacing: 4px;
+}
+
+.SAcubeheading{
+    border: px solid yellow;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.SAcube1{
+    margin-left:30px;
+
+    /*FONT*/
+    
+    font-family: 'Neucha', cursive;
+    font-weight:bolder ;
+    font-size: 50px;
+    color: #99FF99;
+    
+    
+}
+
+.contentsacube{
+
+    border: px solid  red;
+    margin-top: 20px;
+    height: 300px;
+}
+
+.imageforsacube{
+    border: px solid green;
+    width: 50%;
+}
+
+.imageofsacube{
+
+    width: 70%;
+}
+
+.formulasacube{
+    border: px solid green;
+    width: 55%;
+    height: 100%;
+    position: relative;
+    left: 40%;
+    top:-90%;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.SAcuboidheading{
+    border: px solid yellow;
+    height: 50px;
+    margin-top: -250px;
+}
+
+.SAcuboid1{
+    margin-left:30px;
+
+    /*FONT*/
+    
+    font-family: 'Neucha', cursive;
+    font-weight:bolder ;
+    font-size: 50px;
+    color: #FF9933;
+    
+    
+}
+
+.contentsacuboid{
+
+    border: px solid  red;
+    margin-top: 0px;
+    height: 300px;
+}
+
+.imageforsacuboid{
+    border: px solid green;
+    width: 50%;
+}
+
+.imageofsacuboid{
+
+    width: 53%;
+}
+
+.formulasacuboid{
+    border: px solid green;
+    width: 55%;
+    height: 90%;
+    position: relative;
+    left: 40%;
+    top:-100%;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.surfacearea{
+
+    border: px solid green;
+    height: 500px;
+    width: 100%;
+}
+
+.surfaceareaheading{
+
+    border: px solid brown;
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    width: 50%;
+    height: 80px;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 8px 12px 5px rgba(0,0,0,.2);
+
+}
+
+.SAcylinderheading{
+    border: px solid yellow;
+    height: 50px;
+    margin-top: -250px;
+}
+
+.SAcylinder1{
+    margin-left:30px;
+
+    /*FONT*/
+    
+    font-family: 'Neucha', cursive;
+    font-weight:bolder ;
+    font-size: 50px;
+    color: red;
+    
+    
+}
+
+.contentsacylinder{
+
+    border: px solid  red;
+    margin-top: 0px;
+    height: 800px;
+}
+
+.imageforsacylinder{
+    border: px solid green;
+    width: 30%;
+}
+
+.imageofsacylinder{
+    width: 50%;
+}
+
+.imageforsacylinder2{
+    border: px solid red;
+    width: 20%;
+}
+
+.imageofsacylinder2{
+    width: 100%;
+}
+
+.imageforsacylinder3{
+    border: px solid green;
+    width: 30%;
+}
+
+.imageofsacylinder3{
+    width: 60%;
+}
+
+
+
+.formulasacylinder{
+    border: px solid green;
+    width: 55%;
+    height: 90%;
+    position: relative;
+    left: 40%;
+    top:-95%;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.volume{
+
+    border: px solid green;
+    height: 500px;
+    width: 100%;
+    margin-top:-700px ;
+    
+}
+
+.volumeheading{
+
+    border:px solid brown;
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    width: 50%;
+    height: 80px;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 8px 12px 5px rgba(0,0,0,.2);
+
+}
+
+
+.volumeCUBEheading{
+    border:px solid yellow;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.volumeCUBE1{
+    margin-left:30px;
+
+    /*FONT*/
+    
+    font-family: 'Neucha', cursive;
+    font-weight:bolder ;
+    font-size: 50px;
+    color: #FFFF33;
+    
+    
+}
+
+.contentvolumeCUBE{
+
+    border: px solid  red;
+    margin-top: 0px;
+    height: 300px;
+}
+
+.imageforvolumeCUBE{
+    border: px solid green;
+    width: 40%;
+    height: 100%;
+}
+
+.imageofvolumeCUBE{
+
+    width: 100%;
+    height: 100%;
+}
+
+.formulavolumeCUBE{
+    border: px solid green;
+    width: 55%;
+    height:auto;
+    position: relative;
+    left: 40%;
+    top:-80%;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.volumeCUBOIDheading{
+    border: px solid yellow;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.volumeCUBOID1{
+    margin-left:30px;
+
+    /*FONT*/
+    
+    font-family: 'Neucha', cursive;
+    font-weight:bolder ;
+    font-size: 50px;
+    color: #FF9933;
+    
+    
+}
+
+.contentvolumeCUBOID{
+
+    border: px solid  red;
+    margin-top: 0px;
+    height: 300px;
+}
+
+.imageforvolumeCUBOID{
+    border: px solid green;
+    width: 50%;
+}
+
+.imageofvolumeCUBOID{
+
+    width: 53%;
+}
+
+.formulavolumeCUBOID{
+    border: px solid green;
+    width: 55%;
+    height: auto;
+    position: relative;
+    left: 40%;
+    top:-80%;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.volumeCYLINDERheading{
+    border: px solid yellow;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.volumeCYLINDER1{
+    margin-left:30px;
+
+    /*FONT*/
+    
+    font-family: 'Neucha', cursive;
+    font-weight:bolder ;
+    font-size: 50px;
+    color: #99FF99;
+    
+    
+}
+
+.contentvolumeCYLINDER{
+
+    border: px solid  red;
+    margin-top: 0px;
+    height: 300px;
+}
+
+.imageforvolumeCYLINDER{
+    border: px solid green;
+    width: 50%;
+    height: 100%;
+}
+
+.imageofvolumeCYLINDER{
+
+    width: 53%;
+    height: 100%;
+}
+
+.formulavolumeCYLINDER{
+    border: px solid green;
+    width: 55%;
+    height: auto;
+    position: relative;
+    left: 40%;
+    top:-60%;
+
+    /*FONT*/
+
+    font-family:'Roboto', sans-serif ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+
+@media(min-width:0px) and (max-width:700px){
+
+    *{
+        border: px solid blue;
+    }
+
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .heading{
+
+        width: 100vw;
+    }
+    .menu{
+        height: 250px;
+        width: 100%;
+        margin: 0px auto;
+        
+        text-align: center;
+    }
+
+    .chname{
+
+        font-size:60px ;
+    }
+
+    #support{
+
+        width: 90%;
+        text-align: center;
+
+    }
+
+    .sections{
+
+        display: block;
+        width: 40%;
+    }
+
+    #first{
+        margin-left: 0px ;
+        /* width: 20%; */
+    }
+
+    .aandpH{
+        font-size: 35px;
+    }
+
+    .contentAP{
+        font-size: 18px;
+    }
+
+    .headingofAP{
+        font-size: 20px;
+    }
+
+    .square{
+        display: block;
+        float: none;
+        width: 100%;
+        height: 250px;
+    }
+
+    .aofsq{
+        font-size:16px ;
+        position:relative;
+        left:200px;
+        width: 50%;
+    }
+
+    .rectangle{
+
+        display: block;
+        float: none;
+        width: 100%;
+        height: 200px;
+    }
+
+    .aofrec{
+        font-size:16px ;
+        position:relative;
+        left:200px;
+        width: 50%;
+    }
+
+    .imageofrec{
+
+        width: 200px;
+    }
+
+    .triangle{
+        display: block;
+        float: none;
+        width: 100%;
+        height: 200px;
+    }
+
+    .aoftr{
+        font-size:16px ;
+        position:relative;
+        left:200px;
+        width: 50%;
+    }
+
+    .imageoftr{
+
+        width: 200px;
+    }
+
+
+    .circle{
+
+        display: block;
+        float: none;
+        width: 100%;
+        height: 200px;
+    }
+
+    .aofcr{
+        font-size:16px ;
+        position:relative;
+        left:200px;
+        width: 50%;
+    }
+
+    .imageofcr{
+
+        width: 200px;
+    }
+
+    .area{
+        margin-top: 500px;
+    }
+
+    .A1{
+
+        top: 0;
+    }
+
+    .imageforp{
+
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .formulap{
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .imageforr{
+
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .formular{
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .imagefort{
+
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .formulat{
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .GQ1{
+        font-size: 40px;
+    }
+
+    .imageforgq{
+
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .formulagq{
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .imageforp2{
+
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .formulap2{
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .surfacearea{
+
+        border: px solid green;
+        height: 00px;
+        width: 100%;
+    }
+    
+    .surfaceareaheading{
+    
+        border: px solid brown;
+        background-color: #fbb034;
+        background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+        width: 100%;
+        height: 80px;
+        margin: 0px auto;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: 5px 8px 12px 5px rgba(0,0,0,.2);
+    
+    }
+    .SA1{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bolder;
+        font-size: 50px;
+        color: #FEFEFE;
+        position: relative;
+        top: 0px;
+        letter-spacing: 4px;
+    }
+    
+    .SAcubeheading{
+        border: px solid yellow;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    .SAcube1{
+        margin-left:30px;
+    
+        /*FONT*/
+        
+        font-family: 'Neucha', cursive;
+        font-weight:bolder ;
+        font-size: 50px;
+        color: #FFCCCC;
+        
+        
+    }
+    
+    .contentsacube{
+    
+        border: px solid  red;
+        margin-top: 20px;
+        height: 500px;
+        margin-bottom: 20px;
+    }
+    
+    .imageforsacube{
+        border: px solid green;
+        width: 100%;
+    }
+    
+    .imageofsacube{
+    
+        width: 100%;
+    }
+    
+    .formulasacube{
+        border: px solid green;
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0%;
+        top:-0%;
+    
+        /*FONT*/
+    
+        font-family:'Roboto', sans-serif ;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    
+    .SAcuboidheading{
+        border: px solid yellow;
+        height: 50px;
+        margin-top: 0px;
+    }
+    
+    .SAcuboid1{
+        margin-left:30px;
+    
+        /*FONT*/
+        
+        font-family: 'Neucha', cursive;
+        font-weight:bolder ;
+        font-size: 50px;
+        color: #FFCCCC;
+        
+        
+    }
+    
+    .contentsacuboid{
+    
+        border: px solid  red;
+        margin-top: 0px;
+        height: 700px;
+    }
+    
+    .imageforsacuboid{
+        border: px solid green;
+        width: 100%;
+    }
+    
+    .imageofsacuboid{
+    
+        width: 100%;
+    }
+    
+    .formulasacuboid{
+        border: px solid green;
+        width: 100%;
+        height: 90%;
+        position: relative;
+        left: 0%;
+        top:-0%;
+    
+        /*FONT*/
+    
+        font-family:'Roboto', sans-serif ;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .contentsacylinder{
+
+        border: px solid  red;
+        margin-top: 0px;
+        height: 800px;
+    }
+    
+    .imageforsacylinder{
+        border: px solid green;
+        width: 100%;
+    }
+    
+    .imageofsacylinder{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .imageforsacylinder2{
+        border: px solid red;
+        width: 100%;
+    }
+    
+    .imageofsacylinder2{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .imageforsacylinder3{
+        border: px solid green;
+        width: 100%;
+    }
+    
+    .imageofsacylinder3{
+        width: 100%;
+        height: 300px;
+    }
+    
+    
+    
+    .formulasacylinder{
+        border: px solid green;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        left: 0%;
+        top:-0%;
+    
+        /*FONT*/
+    
+        font-family:'Roboto', sans-serif ;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .volume{
+
+        border: 0px solid green;
+        height: 500px;
+        width: 100%;
+        margin-top:0px ;
+        
+    }
+    
+    .volumeheading{
+    
+        border: px solid brown;
+        background-color: #fbb034;
+        background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+        width: 100%;
+        height: 80px;
+        margin: 0px auto;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: 5px 8px 12px 5px rgba(0,0,0,.2);
+    
+    }
+    
+    
+    .volumeCUBEheading{
+        border: px solid yellow;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    .volumeCUBE1{
+        margin-left:30px;
+    
+        /*FONT*/
+        
+        font-family: 'Neucha', cursive;
+        font-weight:bolder ;
+        font-size: 50px;
+        color: #FFFF33;
+        
+        
+    }
+    
+    .contentvolumeCUBE{
+    
+        border: px solid  red;
+        margin-top: 0px;
+        height: 320px;
+    }
+    
+    .imageforvolumeCUBE{
+        border: px solid green;
+        width: 100%;
+        height: auto;
+    }
+    
+    .imageofvolumeCUBE{
+    
+        width: 100%;
+    }
+    
+    .formulavolumeCUBE{
+        border: px solid green;
+        width: 100%;
+        height:auto;
+        position: relative;
+        left: 0%;
+        top:0%;
+    
+        /*FONT*/
+    
+        font-family:'Roboto', sans-serif ;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    
+    .volumeCUBOIDheading{
+        border: px solid yellow;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    .volumeCUBOID1{
+        margin-left:30px;
+    
+        /*FONT*/
+        
+        font-family: 'Neucha', cursive;
+        font-weight:bolder ;
+        font-size: 50px;
+        color: #FF9933;
+        
+        
+    }
+    
+    .contentvolumeCUBOID{
+    
+        border: px solid  red;
+        margin-top: 0px;
+        height: 400px;
+    }
+    
+    .imageforvolumeCUBOID{
+        border: px solid green;
+        width: 100%;
+        height: auto;
+    }
+    
+    .imageofvolumeCUBOID{
+    
+        width: 100%;
+    }
+    
+    .formulavolumeCUBOID{
+        border: px solid green;
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0%;
+        top:0%;
+    
+        /*FONT*/
+    
+        font-family:'Roboto', sans-serif ;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    
+    .volumeCYLINDERheading{
+        border: px solid yellow;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    .volumeCYLINDER1{
+        margin-left:30px;
+    
+        /*FONT*/
+        
+        font-family: 'Neucha', cursive;
+        font-weight:bolder ;
+        font-size: 50px;
+        color: #99FF99;
+        
+        
+    }
+    
+    .contentvolumeCYLINDER{
+    
+        border: px solid  red;
+        margin-top: 0px;
+        height: 320px;
+    }
+    
+    .imageforvolumeCYLINDER{
+        border: px solid green;
+        width: 100%;
+        height: auto;
+    }
+    
+    .imageofvolumeCYLINDER{
+    
+        width: 100%;
+    }
+    
+    .formulavolumeCYLINDER{
+        border: px solid green;
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0%;
+        top:0%;
+    
+        /*FONT*/
+    
+        font-family:'Roboto', sans-serif ;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    
+    
+    
+
+
+
+
+
+
+}
+
+@media (min-width:700px) and (max-width:1023px){
+
+    *{
+        border: px solid brown;
+    }
+
+    #first{
+        margin-left:29px;
+    }
+
+    #support{
+
+        margin: 0px 0px ;
+        width: 100%;
+    }
+
+    .menu{
+        width: 100%;
+    }
+
+    .contentAP{
+
+        text-align: justify;
+    }
+
+    .square{
+        display: block;
+        float: none;
+        width: 100%;
+        height: 250px;
+    }
+
+    .aofsq{
+        font-size:25px ;
+        position:relative;
+        left:250px;
+        width: 60%;
+    }
+
+    .rectangle{
+
+        display: block;
+        float: none;
+        width: 100%;
+        height: 200px;
+    }
+
+    .aofrec{
+        font-size:25px ;
+        position:relative;
+        left:250px;
+        width: 55%;
+        bottom: 200px;
+    }
+
+    .imageofrec{
+
+        width: 200px;
+    }
+
+    .triangle{
+        display: block;
+        float: none;
+        width: 100%;
+        height: 200px;
+    }
+
+    .aoftr{
+        font-size:25px ;
+        position:relative;
+        left:250px;
+        width: 55%;
+    }
+
+    .imageoftr{
+
+        width: 200px;
+    }
+
+
+    .circle{
+
+        display: block;
+        float: none;
+        width: 100%;
+        height: 200px;
+    }
+
+    .aofcr{
+        font-size:25px ;
+        position:relative;
+        left:250px;
+        width: 50%;
+    }
+
+    .imageofcr{
+
+        width: 200px;
+    }
+
+    .area{
+        margin-top: 500px;
+    }
+
+    .A1{
+
+        top: 0;
+    }
+
+    .contentp{
+        width: 100%;
+    }
+
+    .imageforp{
+
+        width: 100%;
+    }
+
+    .formulap{
+        
+        position: relative;
+        left: 60%;
+        font-size: 25px;
+        width: 38%;
+    }
+
+    .contentr{
+        width: 100%;
+    }
+
+    .imageforr{
+
+        width: 100%;
+    }
+
+    .formular{
+        
+        position: relative;
+        left: 50%;
+        font-size: 25px;
+        width: 45%;
+    }
+
+    .contentt{
+        width: 100%;
+    }
+
+    .imagefort{
+
+        width: 100%;
+    }
+
+    .imageoft{
+        width: 50%;
+    }
+
+    .formulat{
+        
+        position: relative;
+        left: 50%;
+        font-size: 25px;
+        width: 48%;
+    }
+    
+
+    .contentgq{
+        width: 100%;
+        height: 410px;
+    }
+
+    .imageforgq{
+
+        width: 100%;
+        text-align: center;
+    }
+
+    .formulagq{
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 0;
+        height: 120px;
+        font-size: 25px;
+    }
+
+    .contentp2{
+        width: 100%;
+    }
+
+    .imageforp2{
+
+        width: 100%;
+    }
+
+    .formulap2{
+        
+        position: relative;
+        left: 40%;
+        font-size: 25px;
+        width: 60%;
+        top: -70%;
+    }
+
+    .surfacearea{
+
+        border: px solid green;
+        height: 00px;
+        width: 100%;
+    }
+    
+    .surfaceareaheading{
+    
+        border: px solid brown;
+        background-color: #fbb034;
+        background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+        width: 100%;
+        height: 80px;
+        margin: 0px auto;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: 5px 8px 12px 5px rgba(0,0,0,.2);
+    
+    }
+    .SA1{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bolder;
+        font-size: 50px;
+        color: #FEFEFE;
+        position: relative;
+        top: 0px;
+        letter-spacing: 4px;
+    }
+    
+    .SAcubeheading{
+        border: px solid yellow;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    .SAcube1{
+        margin-left:30px;
+    
+        /*FONT*/
+        
+        font-family: 'Neucha', cursive;
+        font-weight:bolder ;
+        font-size: 50px;
+        color: #FFCCCC;
+        
+        
+    }
+    
+    .contentsacube{
+    
+        border: px solid  red;
+        margin-top: 20px;
+        height: 500px;
+        margin-bottom: 20px;
+    }
+    
+    .imageforsacube{
+        border: px solid green;
+        width: 100%;
+    }
+    
+    .imageofsacube{
+    
+        width: 100%;
+    }
+    
+    .formulasacube{
+        border: px solid green;
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0%;
+        top:-0%;
+    
+        /*FONT*/
+    
+        font-family:'Roboto', sans-serif ;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    
+    .SAcuboidheading{
+        border: px solid yellow;
+        height: 50px;
+        margin-top: 0px;
+    }
+    
+    .SAcuboid1{
+        margin-left:30px;
+    
+        /*FONT*/
+        
+        font-family: 'Neucha', cursive;
+        font-weight:bolder ;
+        font-size: 50px;
+        color: #FFCCCC;
+        
+        
+    }
+    
+    .contentsacuboid{
+    
+        border: px solid  red;
+        margin-top: 0px;
+        height: 700px;
+    }
+    
+    .imageforsacuboid{
+        border: px solid green;
+        width: 100%;
+    }
+    
+    .imageofsacuboid{
+    
+        width: 100%;
+    }
+    
+    .formulasacuboid{
+        border: px solid green;
+        width: 100%;
+        height: 90%;
+        position: relative;
+        left: 0%;
+        top:-0%;
+    
+        /*FONT*/
+    
+        font-family:'Roboto', sans-serif ;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    .contentsacylinder{
+
+        border: px solid  red;
+        margin-top: 0px;
+        height: 800px;
+    }
+    
+    .imageforsacylinder{
+        border: px solid green;
+        width: 49%;
+        float: left;
+    }
+    
+    .imageofsacylinder{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .imageforsacylinder2{
+        border: px solid red;
+        width: 49%;
+        height: 300px;
+        float: right;
+    }
+    
+    .imageofsacylinder2{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .imageforsacylinder3{
+        border: px solid green;
+        width: 100%;
+    }
+    
+    .imageofsacylinder3{
+        width: 100%;
+        height: 300px;
+    }
+    
+    
+    
+    .formulasacylinder{
+        border: px solid green;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        left: 0%;
+        top:-0%;
+    
+        /*FONT*/
+    
+        font-family:'Roboto', sans-serif ;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .volume{
+
+        border: px solid green;
+        height: 500px;
+        width: 100%;
+        margin-top:0px ;
+        
+    }
+    
+    .volumeheading{
+    
+        border: px solid brown;
+        background-color: #fbb034;
+        background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+        width: 50%;
+        height: 80px;
+        margin: 0px auto;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: 5px 8px 12px 5px rgba(0,0,0,.2);
+    
+    }
+    
+    
+    .volumeCUBEheading{
+        border: px solid yellow;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    .volumeCUBE1{
+        margin-left:30px;
+    
+        /*FONT*/
+        
+        font-family: 'Neucha', cursive;
+        font-weight:bolder ;
+        font-size: 50px;
+        color: #FFFF33;
+        
+        
+    }
+    
+    .contentvolumeCUBE{
+    
+        border: px solid  red;
+        margin-top: 0px;
+        height: 300px;
+    }
+    
+    .imageforvolumeCUBE{
+        border: px solid green;
+        width: 40%;
+        height: 100%;
+    }
+    
+    .imageofvolumeCUBE{
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .formulavolumeCUBE{
+        border: px solid green;
+        width: 55%;
+        height:auto;
+        position: relative;
+        left: 40%;
+        top:-80%;
+    
+        /*FONT*/
+    
+        font-family:'Roboto', sans-serif ;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    
+    .volumeCUBOIDheading{
+        border: px solid yellow;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    .volumeCUBOID1{
+        margin-left:30px;
+    
+        /*FONT*/
+        
+        font-family: 'Neucha', cursive;
+        font-weight:bolder ;
+        font-size: 50px;
+        color: #FF9933;
+        
+        
+    }
+    
+    .contentvolumeCUBOID{
+    
+        border: px solid  red;
+        margin-top: 0px;
+        height: 250px;
+    }
+    
+    .imageforvolumeCUBOID{
+        border: px solid green;
+        width: 100%;
+    }
+    
+    .imageofvolumeCUBOID{
+    
+        width: 40%;
+        height: 100%;
+    }
+    
+    .formulavolumeCUBOID{
+        border: px solid green;
+        width: 55%;
+        height: auto;
+        position: relative;
+        left: 40%;
+        top:-50%;
+    
+        /*FONT*/
+    
+        font-family:'Roboto', sans-serif ;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    
+    .volumeCYLINDERheading{
+        border: px solid yellow;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    .volumeCYLINDER1{
+        margin-left:30px;
+    
+        /*FONT*/
+        
+        font-family: 'Neucha', cursive;
+        font-weight:bolder ;
+        font-size: 50px;
+        color: #99FF99;
+        
+        
+    }
+    
+    .contentvolumeCYLINDER{
+    
+        border: px solid  red;
+        margin-top: 0px;
+        height: 300px;
+    }
+    
+    .imageforvolumeCYLINDER{
+        border: px solid green;
+        width: 40%;
+        height: 100%;
+    }
+    
+    .imageofvolumeCYLINDER{
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .formulavolumeCYLINDER{
+        border: px solid green;
+        width: 55%;
+        height: auto;
+        position: relative;
+        left: 40%;
+        top:-60%;
+    
+        /*FONT*/
+    
+        font-family:'Roboto', sans-serif ;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+
+
+
+
+
+
+}

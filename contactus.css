@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bigimg{
+    border-left: 7px solid #FFC300;
+    position: relative;
+    height: 800px;
+    width: 70%;
+    float: right;
+    background-image: url(images/contactusbigimg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+.mathsopedia{
+    border: px solid green;
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    width: 30%;
+    position: absolute;
+    left: 65%;
+    height: 200px;
+    box-shadow: 5px 8px 12px 5px rgba(0,0,0,.2);
+}
+
+.nameweb{
+
+    
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    left: 5%;
+    top: 25%;
+    
+}
+
+.form{
+    border: px solid blue;
+    float: left;
+    width: 29.4%;
+    height: 800px;
+    text-align: center;
+}
+
+.heading{
+    border: px solid red ;
+    margin-top:70px ;
+    height: 100px;
+    
+
+    /*FONTS*/
+    font-family: 'Fredoka One', cursive;
+    font-size:40px ;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+
+#column1{
+    margin-top: 50px;
+}
+.column1{
+    border: px solid red;
+    width: 100%;
+    margin-bottom: 35px;
+    text-align: right;
+}
+
+.columns{
+    border-style: hidden;
+    height: 25px;
+    width: 300px;
+    padding-top: 15px;
+    margin-right:10px;
+    fill: none;
+    background: transparent;
+   border: none;
+   border-bottom:2px solid orange;
+   color:orange;
+
+}
+
+.cinput{
+
+    border: px solid orange;
+    margin-right:10px ;
+
+    /*FONTS*/
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        background: -webkit-linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+
+.cinput2{
+
+    border: px solid orange;
+    margin-right:45px ;
+
+    /*FONTS*/
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        background: -webkit-linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+.cinput3{
+
+    border: px solid orange;
+    margin-right:78px ;
+
+    /*FONTS*/
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        background: -webkit-linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+.cinput4{
+
+    border: px solid orange;
+    margin-right:25px ;
+
+    /*FONTS*/
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        background: -webkit-linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+.cinput5{
+
+    border: px solid orange;
+    margin-right:45px ;
+
+    /*FONTS*/
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        background: -webkit-linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+
+textarea{
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: ORANGE;
+    
+}
+
+
+::placeholder{
+    color: orange;
+    padding-left: 12px;
+    font-size: 16px;
+}
+
+#button{
+
+    border: px solid ;
+    margin:30px auto;
+    width: 25%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    
+    border-radius: 30px;
+
+    
+    font-family:'Roboto', sans-serif; 
+    font-size: 14px;
+    color: #FEFEFEFE;
+}
+#signup1{
+
+    font-family:'Roboto', sans-serif; 
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    border: hidden;
+    background-color: transparent;
+    color: #FEFEFEFE;
+}
+
+
+
+@media(min-width:0px) and (max-width:700px){
+
+    .bigimg{
+        float: none;
+       width: 100vw;
+       border: none;
+    }
+
+    .heading{
+        color: white;
+    }
+
+    .nameweb{
+        font-size:32px ;
+    }
+
+    .mathsopedia{
+        visibility: hidden;
+    }
+
+    .form{
+        float: none;
+        width: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        background-color: rgba(0,0,0,.5);
+    }
+
+    .cinput,.cinput2,.cinput3,.cinput4,.cinput5{
+        margin-left:3%;
+        color: white;
+    }
+    .columns{
+        width: 200px;
+        color: white;
+    }
+}
+    
+    
+  
+@media (min-width:700px) and (max-width:1023px){
+
+    .bigimg{
+        float: none;
+       width: 100%;
+    }
+
+    .nameweb{
+        font-size:32px ;
+    }
+
+    .form{
+        float: none;
+        width: 60%;
+        position: absolute;
+        top: 0%;
+        left: 5%;
+        background-color: rgba(0,0,0,.5);
+    }
+
+    .cinput,.cinput2,.cinput3,.cinput4,.cinput5{
+        margin-left:3%;
+    }
+}

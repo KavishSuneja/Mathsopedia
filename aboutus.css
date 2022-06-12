@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bigimg{
+    border: px solid red;
+    height: 500px;
+    background-image: url(images/aboutusbigimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 78% 95%, 49% 88%, 22% 94%, 0 100%, 0% 35%, 0 0);   
+}
+
+.content{
+    border: px solid green;
+    height: 450px;
+    text-align: center;
+}
+
+.heading{
+    border: px solid red;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+
+    /*FONTS*/
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    font-weight:bolder ;
+    letter-spacing: 4px;
+    color: #fbb034;
+}
+
+.sections{
+    border: px solid green;
+    float: left;
+    width: 20%;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.sections:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+    border-radius:30px ;
+}
+
+#first{
+    margin-left: 100px;
+    background-color: #8155BA;
+}
+
+#second{
+    background-color: #7EC8E3;
+}
+
+#third{
+    background-color: #B1B1B1;
+}
+#fourth{
+    background-color: #FF5C5C;
+}
+
+
+
+.fa-solid{
+    border: px solid green;
+    font-size: 50px;
+    margin-top: 15px;
+    color:#FEFEFE;
+}
+
+.headingsections{
+    border: px solid white;
+    width: 100%;
+    display: block;
+
+    /*FONTS*/
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.contentsections{
+
+    border: px solid white;
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+
+    /*FONTS*/
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+@media(min-width:0px) and (max-width:700px){
+    .sections{
+        float: none;
+        width: 49%;
+        margin: 0;
+        margin-bottom:10px ;
+    }
+    #first{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    #first,#third{
+        float: left;
+    }
+    #second,#fourth{
+        float: right;
+    }
+  
+}
+@media (min-width:700px) and (max-width:1023px){
+    #first{
+        margin-left: 50px;
+    }
+    .sections{
+        height: 350px;
+    }
+}
