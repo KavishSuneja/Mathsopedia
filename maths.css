@@ -181,7 +181,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
     border: px solid white;
     width:50%;
     position: relative;
-    left: 100px;
+    left: 10%;
     top: 100px;
 
     /*FONTS*/
@@ -367,7 +367,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
 #video{
 
     position: absolute;
-    left: 1200px;
+    left: 85%;
     margin-top: -110px;
 }
 
