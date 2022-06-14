@@ -483,7 +483,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
         border: px solid white;
         position: absolute;
         left: 12%;
-        top: 70%;
+        top: 60%;
         width: 80%;
        // background-color: rgba(0,0,0,.5);
     }
@@ -624,7 +624,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
     
         background-color: #fbb034;
         background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
-        height: 350px;
+        height: 400px;
     
         /*FONTS*/
         font-size: 18px;
@@ -643,7 +643,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
         font-size:22px ;
         font-family: 'Permanent Marker', cursive;
         color: black;
-        margin-left: 50px;
+        margin-left: 5%;
         text-decoration: underline;
     }
     #factp{
@@ -652,7 +652,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
     }
     #help{
     
-        margin-left:50px ;
+        margin-left:5% ;
         font-size:30px ;
         font-family: 'Permanent Marker', cursive;
         color: black;
@@ -662,7 +662,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
 
         position: absolute;
         left: 220px;
-        margin-top: -40px;
+        margin-top: -5%;
     }
     
     #footer{
