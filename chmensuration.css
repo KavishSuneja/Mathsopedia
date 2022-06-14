@@ -936,7 +936,7 @@ body{
 @media(min-width:0px) and (max-width:700px){
 
     *{
-        border: 1px solid red;
+        border: px solid red;
     }
 
 
@@ -946,7 +946,7 @@ body{
 
     .heading{
 
-        width: 100vw;
+        width: 102vw;
     }
     .menu{
         height: 250px;
@@ -979,8 +979,15 @@ body{
         /* width: 20%; */
     }
 
+    #first{
+        background-color: skyblue;
+    }
+
     .aandpH{
         font-size: 35px;
+        color: #66CC99;
+        margin: 0px auto;
+        width: 95%;
     }
 
     .contentAP{
@@ -1284,7 +1291,7 @@ body{
 
         border: px solid  red;
         margin-top: 0px;
-        height: 800px;
+        height: 900px;
     }
     
     .imageforsacylinder{
