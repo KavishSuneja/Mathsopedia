@@ -30,7 +30,7 @@
 
     
     font-family: 'Permanent Marker', cursive;
-    font-size: 40px;
+    font-size: 2.6vw;
     color: white;
     position: relative;
     left: 5%;
@@ -54,7 +54,7 @@
 
     /*FONTS*/
     font-family: 'Fredoka One', cursive;
-    font-size:40px ;
+    font-size: 40px ;
     font-weight: bolder;
     background: -webkit-linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
   -webkit-background-clip: text;
@@ -220,7 +220,7 @@ textarea{
     }
 
     .mathsopedia{
-        visibility: hidden;
+        display: none;
     }
 
     .form{
@@ -235,10 +235,20 @@ textarea{
     .cinput,.cinput2,.cinput3,.cinput4,.cinput5{
         margin-left:3%;
         color: white;
+        font-size: 5vw;
     }
     .columns{
         width: 200px;
         color: white;
+    }
+
+    textarea::placeholder{
+        font-size: 3.7vw;
+    }
+
+    ::placeholder{
+
+        font-size: 4vw;
     }
 }
     
@@ -249,10 +259,11 @@ textarea{
     .bigimg{
         float: none;
        width: 100%;
+       border: none;
     }
 
     .nameweb{
-        font-size:32px ;
+        font-size:3.9vw ;
     }
 
     .form{
@@ -260,11 +271,15 @@ textarea{
         width: 60%;
         position: absolute;
         top: 0%;
-        left: 5%;
+        left: 3%;
         background-color: rgba(0,0,0,.5);
     }
 
+    .heading{
+        font-size: 5vw;
+    }
+
     .cinput,.cinput2,.cinput3,.cinput4,.cinput5{
-        margin-left:3%;
+        margin-left:1%;
     }
 }
