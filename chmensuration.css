@@ -1491,9 +1491,9 @@ body{
     
     .contentvolumeCYLINDER{
     
-        border: px solid  red;
+        border: 1px solid  red;
         margin-top: 0px;
-        height: 320px;
+        height: 450px;
     }
     
     .imageforvolumeCYLINDER{
