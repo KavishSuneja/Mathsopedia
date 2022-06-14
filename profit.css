@@ -669,7 +669,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
 @media(min-width:10px) and (max-width:700px){
 
   *{
-    border: px solid green;
+    border: px solid red;
   }
 
   body{
@@ -732,8 +732,14 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
     font-size: 18px;
   }
 
+  .imagesofcpsp{
+    margin: 0;
+    left: 10%;
+  }
+
   #spimgP{
     display: block;
+    left: 0;
   }
 
   #spimgL{
@@ -742,7 +748,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
 
   #spimgMP{
     top: 60%;
-    left:-50px;
+    left:-25px;
   }
   #cpimgP{
     display: block;
@@ -805,7 +811,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
   }
 
   #loss1img{
-    width: 350px;
+    width: 300px;
     margin: 0px auto;
   }
 
@@ -814,7 +820,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
   }
 
   #discount1img{
-    width: 350px;
+    width: 300px;
   }
 
   .contentgst{
@@ -860,11 +866,8 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
     width: 150%;
   }
 
-  .percentageimg{
-    visibility: hidden;
-  }
   .percentIMG{
-    visibility: hidden;
+    display: none;
   }
 
   .MPH{
