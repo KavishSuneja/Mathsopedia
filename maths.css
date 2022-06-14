@@ -482,7 +482,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
         font-size: 8vw;
         border: px solid white;
         position: absolute;
-        left: 12%;
+        left: 5%;
         top: 60%;
         width: 80%;
        // background-color: rgba(0,0,0,.5);
@@ -661,7 +661,7 @@ background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
     #video{
 
         position: absolute;
-        left: 49%;
+        left: 45%;
         margin-top: -5%;
     }
     
